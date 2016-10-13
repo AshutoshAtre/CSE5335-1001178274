@@ -1,0 +1,66 @@
+.index-wrapper{
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+.index-wrapper .navbar{
+	background:transparent;
+}
+.index-wrapper .navbar-brand{
+	font-size: 24px;
+	color:#B22229 !important;
+	font-weight: bold;
+}
+.index-wrapper .jumbotron{
+	margin-top:80px;
+	padding:10px 30px 0px 30px;
+}
+.index-wrapper #footer{
+	padding: 0px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.index-wrapper #caption{
+	color: black;
+}
+.index-wrapper #value{
+	color: #B22229 ;
+	font-weight: bold;
+}
+.index-wrapper #map{
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: gray;
+	height: 300px;
+	padding:0px;
+}
+.index-wrapper #places{
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: gray;
+	height: 300px;
+	overflow: auto;
+}
+.index-wrapper .places-row{
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: gray;
+	overflow: auto;
+}
+.index-wrapper .places-row > div{
+	padding: 2px;
+	text-align: center;
+	font-size: 14px;
+	border-width: 0px 1px 1px 0px;
+	border-style: dotted;
+	border-color: gray;
+}
+.index-wrapper .header{
+	font-weight: bold;
+	color:#B22229;
+}
