@@ -21,8 +21,7 @@ Net ID: 1001178274
 >  I particularly find npm hard to understand initially. For example, in order to host files css and js as per recommended structure and then render it was particularly hard for me. 
 
 
-### What components OTHER than your client and server framework did you install,
-if any, and if so, what is their purpose for your solution?
+### What components OTHER than your client and server framework did you install, if any, and if so, what is their purpose for your solution?
 >  I used following components on client side for developing UI.
   
   * Bootstrap: Bootstrap is responsive CSS design templating engine developed at Twitter. I used this to make UI for this project responsive and nice looking.
@@ -43,4 +42,4 @@ if any, and if so, what is their purpose for your solution?
   3. Traverse to the path of 'project1' folder on the disk.
   4. Use this command 'npm install'. This will install all the dependencies.
   5. Use this command to start the server 'node server.js'
-  6. Now the web application is accessible at 'localhost:8081'. Open it any browser.
+  6. Now the web application is accessible at 'localhost:8081'. Open it in any browser.
