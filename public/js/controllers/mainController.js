@@ -9,7 +9,10 @@ angular.module('projectOneController', [])
 			// GET request definition
 			var req = {
 				method: 'GET',
-				url: 'http://localhost:8081/getLocations',
+				// For running this app on Heroku
+				url: 'https://cse5335-1001178274.herokuapp.com/getLocations',
+				// For running this app on Localhost use following url instead of the above url
+				//url: 'http://localhost:8081/getLocations',
 				headers: {
 				   'Content-Type': 'application/json'
 				}
